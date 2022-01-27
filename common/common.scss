@@ -396,3 +396,9 @@ span.user-title {
 noscript > #main-outlet {
   padding-top: 6em;
 }
+//hide search icon from header - Ishwar
+div.search-menu div.panel-body, 
+#keyboard-shortcuts-help div div:nth-child(2) li:nth-child(5), 
+div.panel ul.icons li:first-child {
+ display: none;
+}
