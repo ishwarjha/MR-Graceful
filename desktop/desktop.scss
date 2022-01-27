@@ -18,9 +18,9 @@ img.avatar {
 }
 
 .d-header {
-  height: 70px;
+  height: 80px;
   background: rgba(var(--gf-header-bg-rgb), 0.92);
-  box-shadow: 0 3px 3px rgba(100, 100, 100, 0.13);
+  box-shadow: 0 1px 0 rgb(0 0 0 / 10%)!important;
   .panel {
     padding: 6px 0 0 0;
     flex: 0 0 auto;
