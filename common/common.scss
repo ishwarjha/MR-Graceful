@@ -1,7 +1,7 @@
 // Big thanks to jsthon for the initial work on this https://meta.discourse.org/u/jsthon/
 
 @import "common/foundation/variables";
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
@@ -46,7 +46,7 @@
   background: var(--secondary);
   border-radius: 8px;
   width: 75%;
-  max-width: 1170px;  //changed from 970 to 1170 Ishwar
+  max-width: 1180px;  //changed from 970 to 1170 Ishwar
   padding: 3em 3em 5%;
   .archetype-regular & {
     min-height: 500px;
@@ -402,3 +402,8 @@ div.search-menu div.panel-body,
 div.panel ul.icons li:first-child {
  display: none;
 }
+
+.custom-header-links .headerLink a {padding: 0px 20px 0 0 !important; color: #000!important;     font-size: 16px!important; font-family: 'Roboto', sans-serif!important;}
+
+.custom-header-links .headerLink a:hover { color:#2EA3F2!important;}
+.custom-header-links .headerLink a.active { color: #2EA3F2!important;}
