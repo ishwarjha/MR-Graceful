@@ -409,3 +409,6 @@ div.panel ul.icons li:first-child {
 .custom-header-links .headerLink a.active { color: #2EA3F2!important;}
 .hamburger-dropdown { display: none;}
 .d-header #site-logo {height: 2.87em!important;}
+@media (max-width: 950px){
+	.hamburger-dropdown { display: block;}
+}
