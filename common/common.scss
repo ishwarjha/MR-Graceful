@@ -6,6 +6,10 @@
   box-shadow: 0 1px $value rgba(black, 0.18);
 }
 
+.d-header button.sign-up-button {
+    display: none;
+}
+
 .background-container {
   position: fixed;
   top: 0;
